@@ -1,0 +1,99 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-image: url(cfb96a53a83b6e69357c71a7189a3d1b.jpg);
+  background-size: 534px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  padding: 2px;
+  text-shadow: 2px 2px 4px rgb(255, 255, 255);
+}
+  
+h1 {
+  margin-bottom: 20px;
+  font-size: 36px;
+  color: #303030;
+  
+}
+.Calculadora{
+    max-width: 500px;
+    margin: 20px;
+    padding: 30px;
+    background-color:rgba(66, 60, 60, 0.575);
+    border: 1px solid #cacaca;;
+    box-shadow: 0px 0px 20px 0px rgba(160, 147, 147, 0.938);
+    width: 400px;
+    border-radius: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.input-group input {
+    border: 1px solid #6b7e80;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  .input-group input {
+    border: 1px solid #738686;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgb(159, 172, 173);
+        border: 1px solid #7d8f8c;
+        padding: 10px;
+        border-radius: 5px;
+        box-shadow: 0 0 5px rgb(147, 161, 161);
+  }
+  #height {
+    border: 1px solid #99a2a3;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgb(145, 151, 151);
+    #height {
+        border: 1px solid #93a1a1;
+        padding: 10px;
+        border-radius: 5px;
+        box-shadow: 0 0 5px rgb(000,255, 256);
+        border: 30px solid transparent;
+        font-size: 40px;
+        background-color: rgb(166, 176, 182);
+
+  }
+  .number-input {
+    border: 1px solid #99a6a7;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgb(160, 168, 168);
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  
+  .operation-button {
+    border: 1px solid #9faeaf;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgb(148, 156, 156);
+    width: 100%;
+    margin-bottom: 10px;
+    cursor: pointer;
+    background-color: rgb(255, 0, 0);
+    color: #9ca9aa;
+  }
+  
+  .operation-button:hover {
+    background-color: #98a6a7;
+    color: rgb(255, 0, 0);
+  }
+  
+  .result-input {
+    border: 1px solid #99a2a3;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgb(143, 149, 150);
+    width: 100%;
+    margin-bottom: 10px;
+    font-size: 24px;
+    text-align: center;
+  }
+}
